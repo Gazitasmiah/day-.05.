@@ -1,0 +1,76 @@
+
+.parent{ 
+
+    width: 223px;
+    box-shadow: 3px 3px 30px; color: #6d6a6a;
+    position: relative;
+    left:50%;
+    transform: translate(-50%);
+}
+
+.parent img {
+    width: 100%;
+
+}
+.parent .top span {
+     background: blue;
+    color: white;
+    font-size: 12px;
+    padding: 3px 10px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+}
+.contain { padding: 15px;}
+.contain h4{ font-weight: 600;
+font-size: 14px;}
+.contain h4:hover{ 
+    color: rgb(224, 35, 9);
+text-decoration: underline;
+cursor: pointer;}
+ .contain ul {
+ padding-left: 15px ;
+}
+ul li {font-size: 13px; 
+    color: #666;
+    margin:8px ;
+    }
+.price{text-align: center; }
+.price span{
+    color:#d51e0b;
+}
+.discount a { 
+    width: 100%;
+    display:block;
+background: rgb(247, 243, 243);
+text-decoration: none;
+padding : 5px 10px; 
+text-align: center;
+box-sizing: border-box;
+border-radius :10 px;
+display:inline-block
+margin:10px;
+}
+.discount a:hover{
+    background: #3105f5;
+    color: white ;
+}
+.compare a {width: 100%;
+display: block;
+
+background:rgb(247, 243, 243); ;
+text-decoration: none;
+padding:  5pz 10px;
+text-align: center;
+box-sizing: border-box;
+border-radius: 10 px;
+display: inline-block;
+margin: 10px;
+}  
+.compare a:hover{ background:#3105f5 ;
+    color: white ;
+}
+ 
